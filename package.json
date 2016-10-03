@@ -1,0 +1,29 @@
+{
+  "name": "passport-auth",
+  "version": "1.0.0",
+  "description": "Using Passport to protect API endpoints",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockchalkwushock/passport-auth.git"
+  },
+  "author": "Cody Brunner <rockchalkwushock@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rockchalkwushock/passport-auth/issues"
+  },
+  "homepage": "https://github.com/rockchalkwushock/passport-auth#readme",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.2",
+    "nodemon": "^1.10.2",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0"
+  }
+}
